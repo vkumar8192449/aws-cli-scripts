@@ -11,6 +11,9 @@ A collection of shell scripts for setting up and managing AWS resources through 
 - Checks if the AWS CLI is already installed on your Linux machine.
 - If AWS CLI is not installed, it downloads the latest version, extracts it, and installs it.
 - Verifies the installation by checking the AWS CLI version.
+- **Note**: The `zip` utility is required to unzip the installation package. If it is not installed, you can get it using:
+  ```bash
+  sudo apt install zip
 
 #### **Script Execution:**
 
