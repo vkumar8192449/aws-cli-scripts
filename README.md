@@ -29,3 +29,21 @@ A collection of shell scripts for setting up and managing AWS resources through 
 #### Script Execution:
 
 - Run this script after installing AWS CLI to set up the necessary credentials and configuration for AWS operations.
+
+### 3. Create EC2 Instance (create_ec2_instance.sh)
+
+- Interactively prompts for:
+  - AMI ID (with a default value of ami-0dee22c13ea7a9a67)
+  - Instance Type (with a default value of t2.micro)
+  - Key name
+  - Subnet ID
+  - Security Group ID
+  - Instance Name
+- Uses the provided information to create an EC2 instance using the AWS CLI.
+- Waits for the instance to reach the "running" state before confirming the creation.
+- Outputs the instance ID and status of the instance after creation.
+
+#### Script Execution:
+
+- Ensure AWS CLI is installed and configured before running this script.
+- Run this script to create an EC2 instance with the specified configurations.
