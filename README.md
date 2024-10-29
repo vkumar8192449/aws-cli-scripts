@@ -15,3 +15,17 @@ A collection of shell scripts for setting up and managing AWS resources through 
 - This script first checks for an existing AWS CLI installation.
 - If not found, it downloads awscliv2.zip, extracts it, and runs the installation.
 - Provides feedback on whether the installation was successful or not.
+
+### 2. Configure AWS CLI (configure_awscli.sh)
+
+- Interactively prompts for:
+  - AWS Access Key ID
+  - AWS Secret Access Key
+  - Default region (e.g., us-east-1)
+  - Preferred output format (options include json, yaml, text, table)
+- Sets these values using the aws configure command, enabling the AWS CLI to interact with your AWS account using the specified credentials and settings.
+- Displays a message confirming successful configuration.
+
+#### Script Execution:
+
+- Run this script after installing AWS CLI to set up the necessary credentials and configuration for AWS operations.
