@@ -14,9 +14,9 @@ A collection of shell scripts for setting up and managing AWS resources through 
 
 #### **Script Execution:**
 
-1. This script first checks for an existing AWS CLI installation.
-2. If not found, it downloads `awscliv2.zip`, extracts it, and runs the installation.
-3. Provides feedback on whether the installation was successful or not.
+- This script first checks for an existing AWS CLI installation.
+- If not found, it downloads `awscliv2.zip`, extracts it, and runs the installation.
+- Provides feedback on whether the installation was successful or not.
 
 ---
 
