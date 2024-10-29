@@ -59,3 +59,26 @@ A collection of shell scripts for setting up and managing AWS resources through 
 - Ensure AWS CLI is installed and configured before running this script.
 - Run this script to create an EC2 instance with the specified configurations.
 
+<br>
+<br>
+
+## 🛠️ Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/aws-cli-scripts.git
+   cd aws-cli-scripts
+   ```
+
+2. Make scripts executable:
+   ```bash
+   chmod +x *.sh
+   ```
+
+3. Run each script as needed:
+   - **Install AWS CLI**: `./install_awscli.sh`
+   - **Configure AWS CLI**: `./configure_awscli.sh`
+   - **Create EC2 Instance**: `./create_ec2_instance.sh`
+
+> **Note**: Ensure that the AWS CLI is configured (using `configure_awscli.sh`) before running any AWS service commands.
+
